@@ -6,18 +6,20 @@
 	<link rel="stylesheet" href="styles.css">
 	<title>HTML Assignment 3</title>
 	<style>
-		.center{
-			text-align:center;
-		}
-		.right{
-			text-align:right;
-		}
-		#middle{
-			border:1px solid black;
-			cell-padding:1px;
-			cell-spacing:1px
-		}
-	</style>
+.center{
+    text-align:center;
+}
+.right{
+    text-align:right;
+}
+.middle td{
+    border:1px solid black;
+    padding:1px;
+}
+.middle{
+    border-spacing:1px;
+}
+</style>
 </head>
 
 <body>
@@ -28,8 +30,8 @@
 	<table class="middle" id="table-1">
 		<tr>
 			<td id="t11">left</td>
-			<td id="t12">center</td>
-			<td id="t13">right</td>
+			<td id="t12" class="center">center</td>
+			<td id="t13" class="right">right</td>
 		</tr>
 		<tr>
 			<td>left</td>
